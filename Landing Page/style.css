@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #1a1a1a;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background-color: #f6f1e7;
+  background-image: url("assets/hero.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: fit;
+  text-align: center;
+  position: relative;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.logo {
+  color: #e60023;
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-content {
+  padding-top: 120px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.hero {
+  padding-bottom: 80px;
+}
+
+.btn-primary {
+  background: #0f866c;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 10%;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.feature img {
+  width: 300px;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+/* MAP */
+.map-section {
+  background: #fbeeee;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.map-container img {
+  width: 60%;
+}
+
+.stats p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.stats strong {
+  font-size: 32px;
+}
