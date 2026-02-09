@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scientific Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+  <div class="display">
+    <div id="expression" class="expression"></div>
+    <div id="result" class="result">0</div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="append('(')">(</button>
+    <button onclick="append(')')">)</button>
+    <button onclick="append('Math.sqrt(')">√</button>
+    <button onclick="useAns()">ans</button>
+    <button class="clear" onclick="clearAll()">C</button>
+
+    <button onclick="append('7')">7</button>
+    <button onclick="append('8')">8</button>
+    <button onclick="append('9')">9</button>
+    <button onclick="append('%')" class="operator">%</button>
+    <button onclick="append('/')" class="operator">÷</button>
+
+    <button onclick="append('4')">4</button>
+    <button onclick="append('5')">5</button>
+    <button onclick="append('6')">6</button>
+    <button onclick="append('*')" class="operator">×</button>
+    <button onclick="append('-')" class="operator">−</button>
+
+    <button onclick="append('1')">1</button>
+    <button onclick="append('2')">2</button>
+    <button onclick="append('3')">3</button>
+    <button onclick="append('+')" class="operator">+</button>
+    <button onclick="del()">DEL</button>
+
+    <button onclick="append('.')">.</button>
+    <button onclick="append('0')">0</button>
+    <button onclick="toggleSign()">±</button>
+    <button class="equal" onclick="calculate()">ENTER</button>
+  </div>
+
+</div>
+
+<!-- ✅ SCRIPT MUST BE AT THE END -->
+<script src="script.js"></script>
+</body>
+</html>
